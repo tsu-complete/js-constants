@@ -1,0 +1,27 @@
+{
+  "name": "js-constants",
+  "version": "1.0.0",
+  "description": "lots of constants, all in one place",
+  "main": "constants.js",
+  "scripts": {
+    "docs": "./node_modules/jsdoc/jsdoc.js -P package.json readme.md *.js",
+    "lint": "./node_modules/jshint/bin/jshint *.js test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/js-constants.git"
+  },
+  "keywords": [
+    "constants"
+  ],
+  "author": "tsukumo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/js-constants/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/js-constants#readme",
+  "devDependencies": {
+    "jsdoc": "^3.3.2",
+    "jshint": "^2.8.0"
+  }
+}
