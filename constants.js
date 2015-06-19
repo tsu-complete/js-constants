@@ -195,7 +195,6 @@
          *       form, to a data-handling process;
          *  <li> Extending a database through an append operation.
          * </ul>
-         * <br/><br/>
          * The actual function performed by the POST method is determined by
          * the server and is usually dependent on the Request-URI. The posted
          * entity is subordinate to that URI in the same way that a file is
@@ -407,6 +406,79 @@
          * @since 1.0.0
          */
         HTTP_STATUS_100: "CONTINUE",
+        /**
+         * [W3 HTTP/1.1 - 10.1.2] HTTP status switching protocols <br/><br/>
+         *
+         * The server understands and is willing to comply with the client's
+         * request, via the Upgrade message header field (section 14.42), for
+         * a change in the application protocol being used on this connection.
+         * The server will switch protocols to those defined by the response's
+         * Upgrade header field immediately after the empty line which
+         * terminates the 101 response.
+         * <br/><br/>
+         * The protocol SHOULD be switched only when it is advantageous to do
+         * so. For example, switching to a newer version of HTTP is
+         * advantageous over older versions, and switching to a real-time,
+         * synchronous protocol might be advantageous when delivering
+         * resources that use such features.
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_SWITCHING_PROTOCOLS
+         * @see {@link constants.http.status.HTTP_STATUS_101}
+         * @static
+         * @type {Number}
+         * @default 101
+         * @since 1.0.0
+         */
+        HTTP_STATUS_SWITCHING_PROTOCOLS: 101,
+        /**
+         * [W3 HTTP/1.1 - 10.1.2] HTTP status 101
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_101
+         * @see {@link constants.http.status.HTTP_STATUS_SWITCHING_PROTOCOLS}
+         * @static
+         * @type {String}
+         * @default SWITCHING_PROTOCOLS
+         * @since 1.0.0
+         */
+        HTTP_STATUS_101: "SWITCHING_PROTOCOLS",
+        /**
+         * [W3 HTTP/1.1 - 10.2.1] HTTP status ok <br/><br/>
+         *
+         * The request has succeeded. The information returned with the response
+         * is dependent on the method used in the request, for example: <ul>
+         *  <li>GET an entity corresponding to the requested resource is sent
+         *      in the response;
+         *  <li>HEAD the entity-header fields corresponding to the requested
+         *      resource are sent in the response without any message-body;
+         *  <li>POST an entity describing or containing the result of the
+         *      action;
+         *  <li>TRACE an entity containing the request message as received
+         *      by the end server.
+         * </ul>
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_OK
+         * @see {@link constants.http.status.HTTP_STATUS_200}
+         * @static
+         * @type {Number}
+         * @default 200
+         * @since 1.0.0
+         */
+        HTTP_STATUS_OK: 200,
+        /**
+         * [W3 HTTP/1.1 - 10.2.1] HTTP status 200
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_200
+         * @see {@link constants.http.status.HTTP_STATUS_OK}
+         * @static
+         * @type {String}
+         * @default OK
+         * @since 1.0.0
+         */
+        HTTP_STATUS_200: "OK",
 
         /**
          * @namespace constants.xhr
