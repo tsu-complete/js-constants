@@ -404,7 +404,154 @@
          * @default continue
          * @since 1.0.0
          */
-        HTTP_STATUS_100: "continue"
+        HTTP_STATUS_100: "continue",
+
+        /**
+         * @namespace constants.xhr
+         * @memberof constants
+         */
+
+        /**
+         * @namespace constants.xhr.state
+         * @memberof constants.xhr
+         */
+
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state unsent <br/><br/>
+         *
+         * The object has been constructed.
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_UNSENT
+         * @see {@link constants.xhr.state.XHR_STATE_0}
+         * @static
+         * @type {Number}
+         * @default 0
+         * @since 1.0.0
+         */
+        XHR_STATE_UNSENT: 0,
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state 0
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_0
+         * @see {@link constants.xhr.state.XHR_STATE_UNSENT}
+         * @static
+         * @type {String}
+         * @default unsent
+         * @since 1.0.0
+         */
+        XHR_STATE_0: "unsent",
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state opened <br/><br/>
+         *
+         * The open() method has been successfully invoked. During this
+         * state request headers can be set using setRequestHeader() and
+         * the request can be made using the send() method.
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_OPENED
+         * @see {@link constants.xhr.state.XHR_STATE_1}
+         * @static
+         * @type {Number}
+         * @default 1
+         * @since 1.0.0
+         */
+        XHR_STATE_OPENED: 1,
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state 1
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_1
+         * @see {@link constants.xhr.state.XHR_STATE_OPENED}
+         * @static
+         * @type {String}
+         * @default opened
+         * @since 1.0.0
+         */
+        XHR_STATE_1: "opened",
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state headers received <br/><br/>
+         *
+         * All redirects (if any) have been followed and all HTTP headers of
+         * the final response have been received. Several response members
+         * of the object are now available.
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_HEADERS_RECEIVED
+         * @see {@link constants.xhr.state.XHR_STATE_2}
+         * @static
+         * @type {Number}
+         * @default 2
+         * @since 1.0.0
+         */
+        XHR_STATE_HEADERS_RECEIVED: 2,
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state 2
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_2
+         * @see {@link constants.xhr.state.XHR_STATE_HEADERS_RECEIVED}
+         * @static
+         * @type {String}
+         * @default headers_recieved
+         * @since 1.0.0
+         */
+        XHR_STATE_2: "headers_received",
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state loading <br/><br/>
+         *
+         * The response entity body is being received.
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_LOADING
+         * @see {@link constants.xhr.state.XHR_STATE_3}
+         * @static
+         * @type {Number}
+         * @default 3
+         * @since 1.0.0
+         */
+        XHR_STATE_LOADING: 3,
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state 3
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_3
+         * @see {@link constants.xhr.state.XHR_STATE_LOADING}
+         * @static
+         * @type {String}
+         * @default loading
+         * @since 1.0.0
+         */
+        XHR_STATE_3: "loading",
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state done <br/><br/>
+         *
+         * The data transfer has been completed or something went wrong
+         * during the transfer (e.g. infinite redirects).
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_DONE
+         * @see {@link constants.xhr.state.XHR_STATE_4}
+         * @static
+         * @type {Number}
+         * @default 4
+         * @since 1.0.0
+         */
+        XHR_STATE_DONE: 4,
+        /**
+         * [W3 XMLHttpRequest - 4.5] XHR state 4
+         *
+         * @memberof constants.xhr.state
+         * @member XHR_STATE_4
+         * @see {@link constants.xhr.state.XHR_STATE_DONE}
+         * @static
+         * @type {String}
+         * @default done
+         * @since 1.0.0
+         */
+        XHR_STATE_4: "done"
+
     };
 
 });
