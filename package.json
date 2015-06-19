@@ -4,8 +4,9 @@
   "description": "lots of constants, all in one place",
   "main": "constants.js",
   "scripts": {
-    "docs": "./node_modules/jsdoc/jsdoc.js -P package.json readme.md *.js",
-    "lint": "./node_modules/jshint/bin/jshint *.js test/*.js"
+    "lint": "./node_modules/jshint/bin/jshint *.js",
+    "predocs": "npm run lint",
+    "docs": "./node_modules/jsdoc/jsdoc.js -P package.json readme.md *.js"
   },
   "repository": {
     "type": "git",
