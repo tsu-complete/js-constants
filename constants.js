@@ -365,7 +365,46 @@
          * @default all
          * @since 1.0.0
          */
-        HTTP_METHOD_ALL: "all"
+        HTTP_METHOD_ALL: "all",
+
+        /**
+         * @namespace constants.http.status
+         * @memberof constants.http
+         */
+
+        /**
+         * [W3 HTTP/1.1 - 10.1.1] HTTP status continue <br/><br/>
+         *
+         * The client SHOULD continue with its request. This interim response
+         * is used to inform the client that the initial part of the request
+         * has been received and has not yet been rejected by the server. The
+         * client SHOULD continue by sending the remainder of the request or,
+         * if the request has already been completed, ignore this response.
+         * The server MUST send a final response after the request has been
+         * completed. See section 8.2.3 for detailed discussion of the use and
+         * handling of this status code.
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_CONTINUE
+         * @see {@link constants.http.status.HTTP_STATUS_100}
+         * @static
+         * @type {Number}
+         * @default 100
+         * @since 1.0.0
+         */
+        HTTP_STATUS_CONTINUE: 100,
+        /**
+         * [W3 HTTP/1.1 - 10.1.1] HTTP status 100
+         *
+         * @memberof constants.http.status
+         * @member HTTP_STATUS_100
+         * @see {@link constants.http.status.HTTP_STATUS_CONTINUE}
+         * @static
+         * @type {String}
+         * @default continue
+         * @since 1.0.0
+         */
+        HTTP_STATUS_100: "continue"
     };
 
 });
