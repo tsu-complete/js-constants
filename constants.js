@@ -14,6 +14,8 @@
 
         /**
          * resets the old value at constants and returns this one
+         * (only present if object is placed on global)
+         *
          * @memberof constants
          * @function noConflict
          * @static
