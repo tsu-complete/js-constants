@@ -105,10 +105,10 @@
          * @member HTTP_METHOD_OPTIONS
          * @static
          * @type {String}
-         * @default options
+         * @default OPTIONS
          * @since 1.0.0
          */
-        HTTP_METHOD_OPTIONS: "options",
+        HTTP_METHOD_OPTIONS: "OPTIONS",
         /**
          * [W3 HTTP/1.1 - 9.3] HTTP method type get <br/><br/>
          *
@@ -145,10 +145,10 @@
          * @member HTTP_METHOD_GET
          * @static
          * @type {String}
-         * @default get
+         * @default GET
          * @since 1.0.0
          */
-        HTTP_METHOD_GET: "get",
+        HTTP_METHOD_GET: "GET",
         /**
          * [W3 HTTP/1.1 - 9.4] HTTP method type head <br/><br/>
          *
@@ -174,10 +174,10 @@
          * @member HTTP_METHOD_HEAD
          * @static
          * @type {String}
-         * @default head
+         * @default HEAD
          * @since 1.0.0
          */
-        HTTP_METHOD_HEAD: "head",
+        HTTP_METHOD_HEAD: "HEAD",
         /**
          * [W3 HTTP/1.1 - 9.5] HTTP method type post <br/><br/>
          *
@@ -226,10 +226,10 @@
          * @member HTTP_METHOD_POST
          * @static
          * @type {String}
-         * @default post
+         * @default POST
          * @since 1.0.0
          */
-        HTTP_METHOD_POST: "post",
+        HTTP_METHOD_POST: "POST",
         /**
          * [W3 HTTP/1.1 - 9.6] HTTP method type put <br/><br/>
          *
@@ -288,10 +288,10 @@
          * @member HTTP_METHOD_PUT
          * @static
          * @type {String}
-         * @default put
+         * @default PUT
          * @since 1.0.0
          */
-        HTTP_METHOD_PUT: "put",
+        HTTP_METHOD_PUT: "PUT",
         /**
          * [W3 HTTP/1.1 - 9.7] HTTP method type delete <br/><br/>
          *
@@ -318,10 +318,10 @@
          * @member HTTP_METHOD_DELETE
          * @static
          * @type {String}
-         * @default delete
+         * @default DELETE
          * @since 1.0.0
          */
-        HTTP_METHOD_DELETE: "delete",
+        HTTP_METHOD_DELETE: "DELETE",
         /**
          * [W3 HTTP/1.1 - 9.8] HTTP method type trace <br/><br/>
          *
@@ -349,10 +349,10 @@
          * @member HTTP_METHOD_TRACE
          * @static
          * @type {String}
-         * @default trace
+         * @default TRACE
          * @since 1.0.0
          */
-        HTTP_METHOD_TRACE: "trace",
+        HTTP_METHOD_TRACE: "TRACE",
         /**
          * HTTP method type all <br/></br>
          *
@@ -362,10 +362,10 @@
          * @member HTTP_METHOD_ALL
          * @static
          * @type {String}
-         * @default all
+         * @default ALL
          * @since 1.0.0
          */
-        HTTP_METHOD_ALL: "all",
+        HTTP_METHOD_ALL: "ALL",
 
         /**
          * @namespace constants.http.status
@@ -401,10 +401,10 @@
          * @see {@link constants.http.status.HTTP_STATUS_CONTINUE}
          * @static
          * @type {String}
-         * @default continue
+         * @default CONTINUE
          * @since 1.0.0
          */
-        HTTP_STATUS_100: "continue",
+        HTTP_STATUS_100: "CONTINUE",
 
         /**
          * @namespace constants.xhr
@@ -438,10 +438,10 @@
          * @see {@link constants.xhr.state.XHR_STATE_UNSENT}
          * @static
          * @type {String}
-         * @default unsent
+         * @default UNSENT
          * @since 1.0.0
          */
-        XHR_STATE_0: "unsent",
+        XHR_STATE_0: "UNSENT",
         /**
          * [W3 XMLHttpRequest - 4.5] XHR state opened <br/><br/>
          *
@@ -466,10 +466,10 @@
          * @see {@link constants.xhr.state.XHR_STATE_OPENED}
          * @static
          * @type {String}
-         * @default opened
+         * @default OPENED
          * @since 1.0.0
          */
-        XHR_STATE_1: "opened",
+        XHR_STATE_1: "OPENED",
         /**
          * [W3 XMLHttpRequest - 4.5] XHR state headers received <br/><br/>
          *
@@ -494,10 +494,10 @@
          * @see {@link constants.xhr.state.XHR_STATE_HEADERS_RECEIVED}
          * @static
          * @type {String}
-         * @default headers_recieved
+         * @default HEADERS_RECEIVED
          * @since 1.0.0
          */
-        XHR_STATE_2: "headers_received",
+        XHR_STATE_2: "HEADERS_RECEIVED",
         /**
          * [W3 XMLHttpRequest - 4.5] XHR state loading <br/><br/>
          *
@@ -520,10 +520,10 @@
          * @see {@link constants.xhr.state.XHR_STATE_LOADING}
          * @static
          * @type {String}
-         * @default loading
+         * @default LOADING
          * @since 1.0.0
          */
-        XHR_STATE_3: "loading",
+        XHR_STATE_3: "LOADING",
         /**
          * [W3 XMLHttpRequest - 4.5] XHR state done <br/><br/>
          *
@@ -547,10 +547,10 @@
          * @see {@link constants.xhr.state.XHR_STATE_DONE}
          * @static
          * @type {String}
-         * @default done
+         * @default DONE
          * @since 1.0.0
          */
-        XHR_STATE_4: "done"
+        XHR_STATE_4: "DONE"
 
     };
 
