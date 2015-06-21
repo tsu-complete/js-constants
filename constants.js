@@ -498,6 +498,72 @@
     CONST.HTTP.STATUS.CODE_200 = "OK";
 
     /**
+     * @namespace CONST.HTTP.MEDIA
+     * @memberof CONST.HTTP
+     */
+    CONST.HTTP.MEDIA = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.APPLICATION
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.APPLICATION = { };
+
+    /**
+     * [IANA] atom+xml
+     *
+     * @memberof CONST.HTTP.MEDIA.APPLICATION
+     * @member ATOM
+     * @static
+     * @type {String}
+     * @default application/atom+xml
+     * @since 1.0.0
+     */
+    CONST.HTTP.MEDIA.APPLICATION.ATOM = "application/atom+xml";
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.AUDIO
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.AUDIO = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.IMAGE
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.IMAGE = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.MESSAGE
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.MESSAGE = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.MODEL
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.MODEL = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.MULTIPART
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.MULTIPART = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.TEXT
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.TEXT = { };
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.VIDEO
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.VIDEO = { };
+
+    /**
      * @namespace CONST.XHR
      * @memberof CONST
      */
