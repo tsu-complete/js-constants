@@ -510,16 +510,21 @@
     CONST.HTTP.MEDIA.APPLICATION = { };
 
     /**
+     * @namespace CONST.HTTP.MEDIA.APPLICATION.XML
+     * @memberof CONST.HTTP.MEDIA.APPLICATION
+     */
+
+    /**
      * [IANA] atom+xml
      *
-     * @memberof CONST.HTTP.MEDIA.APPLICATION
+     * @memberof CONST.HTTP.MEDIA.APPLICATION.XML
      * @member ATOM
      * @static
      * @type {String}
      * @default application/atom+xml
      * @since 1.0.0
      */
-    CONST.HTTP.MEDIA.APPLICATION.ATOM = "application/atom+xml";
+    CONST.HTTP.MEDIA.APPLICATION.XML.ATOM = "application/atom+xml";
 
     /**
      * @namespace CONST.HTTP.MEDIA.AUDIO
