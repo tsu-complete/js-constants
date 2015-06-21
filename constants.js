@@ -504,27 +504,60 @@
     CONST.HTTP.MEDIA = { };
 
     /**
+     * @namespace CONST.HTTP.MEDIA.PREFIX
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.PREFIX = { };
+
+    /**
+     * Media prefix application type
+     *
+     * @memberof CONST.HTTP.MEDIA.PREFIX
+     * @member APPLICATION
+     * @static
+     * @type {String}
+     * @default application/
+     * @since 1.0.0
+     */
+    CONST.HTTP.MEDIA.PREFIX.APPLICATION = "application/";
+
+    /**
+     * @namespace CONST.HTTP.MEDIA.SUFFIX
+     * @memberof CONST.HTTP.MEDIA
+     */
+    CONST.HTTP.MEDIA.SUFFIX = { };
+
+    /**
+     * Media sufix xml type
+     *
+     * @memberof CONST.HTTP.MEDIA.SUFFIX
+     * @member XML
+     * @static
+     * @type {String}
+     * @default +xml
+     * @since 1.0.0
+     */
+    CONST.HTTP.MEDIA.SUFFIX.XML = "+xml";
+
+    /**
      * @namespace CONST.HTTP.MEDIA.APPLICATION
      * @memberof CONST.HTTP.MEDIA
      */
     CONST.HTTP.MEDIA.APPLICATION = { };
 
     /**
-     * @namespace CONST.HTTP.MEDIA.APPLICATION.XML
-     * @memberof CONST.HTTP.MEDIA.APPLICATION
-     */
-
-    /**
      * [IANA] atom+xml
      *
-     * @memberof CONST.HTTP.MEDIA.APPLICATION.XML
+     * @memberof CONST.HTTP.MEDIA.APPLICATION
      * @member ATOM
      * @static
      * @type {String}
      * @default application/atom+xml
      * @since 1.0.0
      */
-    CONST.HTTP.MEDIA.APPLICATION.XML.ATOM = "application/atom+xml";
+    CONST.HTTP.MEDIA.APPLICATION.ATOM =
+        CONST.HTTP.MEDIA.PREFIX.APPLICATION + "atom" +
+        CONST.HTTP.MEDAI.SUFFIX.XML;
 
     /**
      * @namespace CONST.HTTP.MEDIA.AUDIO
